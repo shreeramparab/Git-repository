@@ -1,1 +1,1 @@
-print ("okat")
+print ("okay")
