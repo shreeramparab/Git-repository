@@ -36,3 +36,5 @@ git remote set-url origin(remote name ) new_url
 git pull  # to fetch form repo 
 git push # to send into Git-repository
 git clone url # to clone a repo 
+git submodule add <repo-url> face # to convert repo into submodule 
+echo  "foldername/" >> .gitignore # to ignore this by git 
