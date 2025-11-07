@@ -18,6 +18,8 @@ git commit -a -m "comment or context" # if u  dont want to run add command and d
 ls # to list the files 
 git rm -f filename # force removal of file 
 git rm --cached filename # to remove file from staged 
+git rm -r --cached foldername # to remove folder
+git -rf repo # to remove repo
 touch  .gitignore # bash will ignore all the opreation on the file mentioned in this file 
 / file name # only ignore the file which are seen like whhich are not in the folder 
 *.log # ignore all file having log that is .py 
@@ -33,3 +35,4 @@ git push origin master (branch) # push master branch into origin that is the  ur
 git remote set-url origin(remote name ) new_url 
 git pull  # to fetch form repo 
 git push # to send into Git-repository
+git clone url # to clone a repo 
