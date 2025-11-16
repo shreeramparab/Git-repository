@@ -1,1 +1,1 @@
-i want to fuck riya
+print("i want to fuck riya")
