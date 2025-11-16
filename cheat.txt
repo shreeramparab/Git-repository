@@ -38,3 +38,4 @@ git push # to send into Git-repository
 git clone url # to clone a repo 
 git submodule add <repo-url> face # to convert repo into submodule 
 echo  "foldername/" >> .gitignore # to ignore this by git 
+git branch -d/-D branchname # to delete the branch 
