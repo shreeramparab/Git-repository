@@ -15,8 +15,8 @@ git commit -a -m "comment or context" # if u  dont want to run add command and d
  (avoid mostly got step wise 1 stauts 2 add 3 commit )
 ls # to list the files 
 git rm -f filename # force removal of file 
-git rm --cached filename # to remove file from staged 
-git rm -r --cached foldername # to remove folder
+git rm --cached (filename  / *.py / -r. / foldername/* ) # to remove file from staged 
+git rm -r --cached foldername  # to remove folder
 git -rf repo # to remove repo
 touch  .gitignore # bash will ignore all the opreation on the file mentioned in this file 
 / file name # only ignore the file which are seen like whhich are not in the folder 
@@ -37,3 +37,4 @@ git clone url # to clone a repo
 git submodule add <repo-url> face # to convert repo into submodule 
 echo  "foldername/" >> .gitignore # to ignore this by git 
 git branch -d/-D branchname # to delete the branch 
+git remote remove origin # to remove remote 
