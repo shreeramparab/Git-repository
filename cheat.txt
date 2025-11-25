@@ -25,6 +25,7 @@ ignore/ #  declare .gitignore as a folder or file
 git branch # to see branch 
 git branch branchname # to create branch 
 git cheakout branchname # to swtich branch
+git branch -m master main
 git checkout -b branchname # to create and switch into a branch simultaneously
 git remote add origin https://github.com/shreeramparab/Git-repository.git # create remote named origin 
 git remote rename origin (old name) myremote (new name) # rename remote
