@@ -40,7 +40,7 @@ git submodule add <repo-url> face # to convert repo into submodule
 echo  "foldername/" >> .gitignore # to ignore this by git 
 git branch -d/-D branchname # to delete the branch 
 git remote remove origin # to remove remote 
-
+rm -rf .git # remove git from particular folder
 git lfs install # to install  
 git lfs track "filename"
 git add .gitattributes
