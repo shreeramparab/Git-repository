@@ -26,7 +26,7 @@ git branch # to see branch
 git branch branchname # to create branch 
 git cheakout branchname # to swtich branch
 git checkout -b branchname # to create and switch into a branch simultaneously
-git add remote origin https://github.com/shreeramparab/Git-repository.git # create remote named origin 
+git  remote remote origin https://github.com/shreeramparab/Git-repository.git # create remote named origin 
 git remote # to see the remote 
 git remote -v # to see the url link 
 git push origin master (branch) # push master branch into origin that is the  url 
@@ -38,3 +38,7 @@ git submodule add <repo-url> face # to convert repo into submodule
 echo  "foldername/" >> .gitignore # to ignore this by git 
 git branch -d/-D branchname # to delete the branch 
 git remote remove origin # to remove remote 
+git lfs install # to install  
+git lfs track "filename"
+git add .gitattributes
+git commit -m "changes"
