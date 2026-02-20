@@ -40,3 +40,4 @@ git clone url # to clone a repo
 git submodule add <repo-url> face # to convert repo into submodule 
 echo  "foldername/" >> .gitignore # to ignore this by git 
 git branch -M master  # to rename branchname
+git mv filename newfilename # to rename the file to avoid the conflict 
