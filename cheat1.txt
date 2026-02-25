@@ -45,3 +45,8 @@ git lfs install # to install
 git lfs track "filename"
 git add .gitattributes
 git commit -m "changes"
+Clone normally            | `git clone <url>`                      |
+Clone into folder         | `git clone <url> folder`               |
+Clone into current folder | `git clone <url> .`                    |
+Clone with submodules     | `git clone --recurse-submodules <url>` |
+

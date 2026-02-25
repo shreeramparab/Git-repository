@@ -41,3 +41,17 @@ git submodule add <repo-url> face # to convert repo into submodule
 echo  "foldername/" >> .gitignore # to ignore this by git 
 git branch -M master  # to rename branchname
 git mv filename newfilename # to rename the file to avoid the conflict 
+
+What Is a Git Submodule?
+
+A submodule is:
+
+A Git repository inside another Git repository.
+
+Used when:
+
+You want to reuse a project/library
+
+Keep separate version control
+
+Track specific commit of external repo
